@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Doctor App</string>
+    <string name="top_rated_doctors">Top Rated Doctors</string>
+    <string name="home">Home</string>
+    <string name="_16_reviews">( 16 reviews)</string>
+    <string name="ophthalmologist">Ophthalmologist</string>
+    <string name="justin_case">Justin Case</string>
+    <string name="list_of_schedule">List of Schedule</string>
+    <string name="consultation">Consultation</string>
+    <string name="_10_30_am">10:30 AM</string>
+
+<!--&lt;!&ndash;    <string name="google_map_api_key">AIzaSyAmwglDR2RopxM3nDzmTj7VOaA7UgwS9fA</string>&ndash;&gt;-->
+    <string name="google_map_api_key">AIzaSyA2fZClQJGTBzFKPKbBge4UQPywAFvhZqI</string>
+<!--    <string name="image">Image</string>-->
+
+</resources>

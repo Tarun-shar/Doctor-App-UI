@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="14dp"
+    android:id="@+id/cardView7"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="14dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:background="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/image_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp">
+
+            <ImageView
+                android:id="@+id/patient_image"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:src="@color/skyblue" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/patient_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_toEndOf="@id/image_card"
+            android:text="Natalya Undergrowth"
+            android:textSize="14sp"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toEndOf="@id/image_card"
+            android:layout_below="@id/patient_name"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="18dp">
+
+            <TextView
+                android:id="@+id/app_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17 June 2020"
+                android:textSize="13sp"
+                android:textColor="@color/light_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=", "
+                android:textColor="@color/light_black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/app_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:30 AM"
+                android:textColor="@color/light_black"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/dots"
+            app:tint="@color/light_black" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bgColor">#F8F7F7</color>
+    <color name="blue">#457AFE</color>
+    <color name="light_white">#CDCBCB</color>
+    <color name="skyblue">#D2E6FF</color>
+    <color name="skyblue_LIGHT_2">#E9EFFE</color>
+    <color name="light_black">#A09E9E</color>
+    <color name="yellow">#F4BF50</color>
+
+    <color name="light_pink">#FCF1D6</color>
+    <color name="pink">#F9D8D9</color>
+    <color name="GREY">#ECE7FE</color>
+    <color name="light_skyBlue">#D9FFE5</color>
+
+
+    <color name="Color1">#FCF1D6</color>
+    <color name="Color2">#D2E6FF</color>
+    <color name="Color3">#D9FFE5</color>
+    <color name="Color4">#ECE7FE</color>
+    <color name="Color5">#F9D8D9</color>
+</resources>
